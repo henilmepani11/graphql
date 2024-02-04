@@ -4,6 +4,7 @@ targets:
       ferry_generator|graphql_builder:
         enabled: true
         options:
+                 //project name
           schema: mutations_612|lib/graphql/schema.graphql
           type_overrides:
             JSON:
@@ -13,6 +14,7 @@ targets:
       ferry_generator|serializer_builder:
         enabled: true
         options:
+                   //project name
           schema: mutations_612|lib/graphql/schema.graphql
           type_overrides:
             JSON:
